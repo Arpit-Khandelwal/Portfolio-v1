@@ -3,12 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Lowfi.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Developing...</title>
 </head>
 <body>
     <div align="center">Hey <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px"></div>
 <div align="center">We're stil in Development</div>
     <div font-weight="bold" align="center">But here's a few pages I made, check them out</div> 
+    <hr><hr>
+    <h1>Music player</h1>
+    <div class="Music-container">
+        <div class="Music-info">
+            <h4 id="music-title">
+                <div class="progress-bar"></div>
+            </h4>
+        </div>
+        <audio class="music-file" id="music-file" src="a.wav"></audio>
+        <div class="Music-image"><img src="a.jpg" id="music-cover" alt="cover">
+        </div>
+        <div id="navigation">
+            <button id="prev" class="Music-control-button" alt="Previous">
+                <i class="fa fa-backward"></i>
+            </button>
+            <button id="play" class="Music-control-button" alt="pause/Play">
+                <i class="fa fa-pause"></i>
+            </button>
+            <button id="next" class="Music-control-button" alt="Next">
+                <i class="fa fa-forward"></i>
+            </button>
+        </div>
+    </div>
+    <script src="LowFi.js"></script>
     <hr><hr>
      <h1>Music player</h1>
     <div class="Music-container">

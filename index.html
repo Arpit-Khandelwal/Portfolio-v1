@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration</title>
+</head>
+<body>
+    <h1>Marathon Registration Details</h1>
+    <form>
+        <div>
+        <label for="first">First Name:</label>
+        <input type="text" name="first" id="first" placeholder="Text" required="">
+        <br>
+        <label for="last">Last Name:</label>
+        <input type="text" name="last" id="last" placeholder="Text" required="">
+        </div>
+        <label for="race">Race:</label>
+        <select name="raceType" id="race">
+            <option value="10">10 KM</option>
+            <option value="30">30 KM</option>
+            <option value="50">50 KM</option>
+        </select>
+        <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required="">
+        <br>
+        <label for="tel">Phone Number:</label>
+        <input type="tel" name="phone" id="tel" placeholder="Enter your number" required="">
+        </div>
+        <p>
+            Enter age group:
+            </p><div><label for="child">5-12</label><input type="radio" id="child" name="child" value="child"></div>
+            <div><label for="teen">13-17</label><input type="radio" id="teen" name="teen" value="teen"></div>
+            <div><label for="adult">18-25</label><input type="radio" id="adult" name="adult" value="adult"></div>
+            <div><label for="preSenior">26-35</label><input type="radio" id="preSenior" name="preSenior" value="preSenior"></div>
+            <div><label for="senior">36-50</label><input type="radio" id="senior" name="senior" value="senior"></div>
+        <p></p>
+        <input type="submit">
+        </form>
+
+</body></html>

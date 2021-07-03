@@ -1,0 +1,38 @@
+
+.top-container
+{
+    position: relative;
+  text-align: center;
+  margin: 0px,0px,0px,0px;
+  background-image: "images/image-top.jpg";
+  background-size: cover;
+  width: 500px;
+  left: 0%;
+}
+.top-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Alex Brush', Arial, Helvetica, sans-serif;
+    font-size: 350%;
+}
+.web-developer{
+    
+font-family: 'Poiret One', cursive;
+    font-size: 40px;
+}
+.middle-container{
+    position: relative;
+
+}
+.bottom-container{
+    position: relative;
+}
+
+img{
+    background-image: inherit;
+    background-repeat: no-repeat;
+    width: 500px;
+    left: 0%;
+}

@@ -3,7 +3,7 @@
 {
     position: relative;
   text-align: center;
-  margin: auto auto auto;
+  margin: auto;
   background-image: "images/image-top.jpg";
   background-size: cover;
   width: 500px;
@@ -33,6 +33,31 @@ font-family: 'Poiret One', cursive;
 img{
     background-image: inherit;
     background-repeat: no-repeat;
-    width: 500px;
+    width: 100%;
     left: 0%;
+    object-fit: cover;
+}
+.contact-me-twitter
+{
+    float: unset;
+    position: absolute;
+    width: 8%;
+    top:80%;
+    left: 40%;
+}
+.contact-me-gmail
+{
+    float: unset;
+    position: absolute;
+    width: 8%;
+    top:81%;
+    left: 50%;
+}
+.contact-me-instagram
+{
+    float: unset;
+    position: absolute;
+    width: 7%;
+    top:80.5%;
+    left: 60%;
 }

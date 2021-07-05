@@ -3,7 +3,7 @@
 {
     position: relative;
   text-align: center;
-  margin: 0px,0px,0px,0px;
+  margin: auto auto auto;
   background-image: "images/image-top.jpg";
   background-size: cover;
   width: 500px;

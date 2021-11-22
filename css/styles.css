@@ -3,7 +3,11 @@
 {
     position: relative;
   text-align: center;
+<<<<<<< HEAD
   margin: auto;
+=======
+  margin: 0px,0px,0px,0px;
+>>>>>>> 084339c648f301f19bcb89b4cec75e0bbdf4279d
   background-image: "images/image-top.jpg";
   background-size: cover;
   width: 500px;
@@ -33,6 +37,7 @@ font-family: 'Poiret One', cursive;
 img{
     background-image: inherit;
     background-repeat: no-repeat;
+<<<<<<< HEAD
     width: 100%;
     left: 0%;
     object-fit: cover;
@@ -61,3 +66,8 @@ img{
     top:80.5%;
     left: 60%;
 }
+=======
+    width: 500px;
+    left: 0%;
+}
+>>>>>>> 084339c648f301f19bcb89b4cec75e0bbdf4279d
